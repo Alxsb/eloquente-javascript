@@ -484,7 +484,13 @@ console.log(abc.length);
 A maioria dos exercícios contém um pedaço de código que pode ser utilizada para alterar e resolver o exercício. Lembre-se que você pode clicar em um bloco de código para editá-lo.
 
 ```javascript
-// Your code here.
+var hash = '';
+var counter = 0;
+
+while (counter < 7) {
+    console.log(hash = hash += '#');
+    counter = counter + 1;
+}
 ```
 
 **Dicas:**
